@@ -1,0 +1,99 @@
+name: rndpo
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.19.0
+
+  cupertino_icons: ^1.0.6
+  shared_preferences: ^2.3.2
+  awesome_snackbar_content: ^0.1.3
+  permission_handler: ^11.3.1
+  flutter_barcode_scanner:
+    git:
+      url: https://github.com/wrteam-anish/flutter_barcode_scanner.git
+      ref: master
+  connectivity_plus: ^6.0.5
+  dio: ^5.7.0
+  firebase_core: ^3.9.0
+  firebase_messaging: ^15.1.6
+  device_info_plus: ^11.1.0
+  timezone: ^0.10.0
+  firebase_analytics: ^11.3.6
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_svg: ^2.0.10+1
+  http: ^1.2.2
+  flutter_launcher_icons: "^0.14.1"
+  flutter_lints: 5.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/logo.svg
+    - assets/images/hamburger_icon.png
+    - assets/images/hamburger_icon.svg
+    - assets/images/appbar_icon.svg
+    - assets/images/bell_icon.svg
+    - assets/images/info_icon.svg
+    - assets/images/person.svg
+    - assets/images/lock.svg
+    - assets/images/addupdate_item.svg
+    - assets/images/homepage.svg
+    - assets/images/inventory_item.svg
+    - assets/images/physical_adjustment.svg
+    - assets/images/print_labels.svg
+    - assets/images/purchase_order.svg
+    - assets/images/purchase_return.svg
+    - assets/images/receive_purchase.svg
+    - assets/images/reports.svg
+    - assets/images/sales_summery.svg
+    - assets/images/sales_tax.svg
+    - assets/images/sales_tender.svg
+    - assets/images/cam.svg
+    - assets/images/barcode.svg
+    - assets/images/filter.svg
+    - assets/images/physical_count.svg
+    - assets/images/edit.svg
+    - assets/images/delete.svg
+    - assets/images/delete2.svg
+    - assets/images/search.svg
+    - assets/images/material-delete.svg
+    - assets/images/warning_icon.svg
+    - assets/images/logout.svg
+    - assets/images/receive.svg
+    - assets/images/logo1.png
+    - assets/images/logo2.png
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+        - asset: assets/fonts/Inter-Black.ttf
+        - asset: assets/fonts/Inter-Bold.ttf
+        - asset: assets/fonts/Inter-ExtraBold.ttf
+        - asset: assets/fonts/Inter-ExtraLight.ttf
+        - asset: assets/fonts/Inter-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Inter-Medium.ttf
+        - asset: assets/fonts/Inter-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Inter-Thin.ttf
+
