@@ -554,6 +554,7 @@ class _PurchaseReturnEditState extends State<PurchaseReturnEdit> {
                   ],
                   TextField(
                     controller: notesController,
+                    onTap: () => notesController.selection = TextSelection(baseOffset: 0, extentOffset: notesController.value.text.length),
                     decoration: InputDecoration(
                       labelText: 'Notes',
                       hintText: 'Write note',
@@ -619,6 +620,7 @@ class _PurchaseReturnEditState extends State<PurchaseReturnEdit> {
                                           Expanded(
                                             child: TextField(
                                               controller: _skuIdController,
+                                              onTap: () => _skuIdController.selection = TextSelection(baseOffset: 0, extentOffset: _skuIdController.value.text.length),
                                               focusNode:
                                               _skuIdControllerFocusNode,
                                               onSubmitted: (String sku) {

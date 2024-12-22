@@ -583,6 +583,7 @@ class _PurchaseOrderEditState extends State<PurchaseOrderEdit> {
                                                         vertical: 9),
                                               ),
                                               controller: _skuIdController,
+                                              onTap: () => _skuIdController.selection = TextSelection(baseOffset: 0, extentOffset: _skuIdController.value.text.length),
                                               onSubmitted: (String sku) {
                                                 _getAutoCompleteBySupplier();
                                               },
@@ -690,6 +691,7 @@ class _PurchaseOrderEditState extends State<PurchaseOrderEdit> {
                                                       LengthLimitingTextInputFormatter(6),
                                                     ],
                                                     controller: _quantityControllers[index],
+                                                    onTap: () => _quantityControllers[index].selection = TextSelection(baseOffset: 0, extentOffset: _quantityControllers[index].value.text.length),
                                                     onChanged: (value) {
                                                       _updateQuantity(index, value);
                                                     },

@@ -299,6 +299,7 @@ class _PhysicalInventoryCountFinishState
                                       Expanded(
                                         child: TextField(
                                           controller: _skuIdController,
+                                          onTap: () => _skuIdController.selection = TextSelection(baseOffset: 0, extentOffset: _skuIdController.value.text.length),
                                           focusNode: _skuIdFocusNode,
                                           onSubmitted: (String sku) {
                                             _getAutoComplete();
@@ -417,6 +418,7 @@ class _PhysicalInventoryCountFinishState
                     flex: 50,
                     child: TextField(
                       controller: _onHandQuantityController,
+                      onTap: () => _onHandQuantityController.selection = TextSelection(baseOffset: 0, extentOffset: _onHandQuantityController.value.text.length),
                       focusNode: _onHandFocusNode,
                       keyboardType: TextInputType.number,
                       inputFormatters: [

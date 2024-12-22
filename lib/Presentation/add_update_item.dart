@@ -413,6 +413,7 @@ class _AddUpdateItemState extends State<AddUpdateItem> {
                                 Expanded(
                                   child: TextField(
                                     controller: _skuIdController,
+                                    onTap: () => _skuIdController.selection = TextSelection(baseOffset: 0, extentOffset: _skuIdController.value.text.length),
                                     focusNode: _skuIdFocusNode,
                                     onSubmitted: (String sku) {
                                       _getAutoComplete();
@@ -477,6 +478,7 @@ class _AddUpdateItemState extends State<AddUpdateItem> {
                 padding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 8),
                 child: TextField(
                   controller: _itemNameController,
+                  onTap: () => _itemNameController.selection = TextSelection(baseOffset: 0, extentOffset: _itemNameController.value.text.length),
                   decoration: InputDecoration(
                     labelText: 'Item Name',
                     border: OutlineInputBorder(
@@ -579,6 +581,7 @@ class _AddUpdateItemState extends State<AddUpdateItem> {
                 padding: const EdgeInsets.all(8.0),
                 child: TextField(
                   controller: _purchasePriceController,
+                  onTap: () => _purchasePriceController.selection = TextSelection(baseOffset: 0, extentOffset: _purchasePriceController.value.text.length),
                   decoration: InputDecoration(
                     labelText: 'Purchase Price',
                     border: OutlineInputBorder(
@@ -605,6 +608,7 @@ class _AddUpdateItemState extends State<AddUpdateItem> {
                 padding: const EdgeInsets.all(8.0),
                 child: TextField(
                   controller: _sellingPriceController,
+                  onTap: () => _sellingPriceController.selection = TextSelection(baseOffset: 0, extentOffset: _sellingPriceController.value.text.length),
                   decoration: InputDecoration(
                     labelText: 'Selling Price',
                     border: OutlineInputBorder(

@@ -421,6 +421,7 @@ class _InventoryItemReportState extends State<InventoryItemReport> {
         children: [
           TextField(
             controller: _searchTextController,
+            onTap: () => _searchTextController.selection = TextSelection(baseOffset: 0, extentOffset: _searchTextController.value.text.length),
             decoration: InputDecoration(
               labelText: 'Search',
               prefixIcon: Padding(

@@ -193,6 +193,7 @@ class _LoginScreenState extends State<LoginScreen> with SingleTickerProviderStat
                       const SizedBox(height: 20),
                       TextField(
                         controller: _usernameController,
+                        onTap: () => _usernameController.selection = TextSelection(baseOffset: 0, extentOffset: _usernameController.value.text.length),
                         decoration: InputDecoration(
                           prefixIcon: Transform.scale(
                             scale: 0.5,
@@ -214,6 +215,7 @@ class _LoginScreenState extends State<LoginScreen> with SingleTickerProviderStat
                       const SizedBox(height: 20),
                       TextField(
                         controller: _passwordController,
+                        onTap: () => _passwordController.selection = TextSelection(baseOffset: 0, extentOffset: _passwordController.value.text.length),
                         obscureText: _obscureText,
                         decoration: InputDecoration(
                           prefixIcon: Transform.scale(

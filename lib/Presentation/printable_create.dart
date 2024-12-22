@@ -297,6 +297,7 @@ class _PrintableCreateState extends State<PrintableCreate> {
                                           Expanded(
                                             child: TextField(
                                               controller: _skuIdController,
+                                              onTap: () => _skuIdController.selection = TextSelection(baseOffset: 0, extentOffset: _skuIdController.value.text.length),
                                               focusNode: _skuFocusNode,
                                               onSubmitted: (String sku) {
                                                 _getAutoComplete();
@@ -470,6 +471,7 @@ class _PrintableCreateState extends State<PrintableCreate> {
                       flex: 2, // 75% of the space
                       child: TextField(
                         controller: _labelTitleController,
+                        onTap: () => _labelTitleController.selection = TextSelection(baseOffset: 0, extentOffset: _labelTitleController.value.text.length),
                         focusNode: _labelTitleFocusNode,
                         decoration: InputDecoration(
                           labelText: 'Title',
@@ -496,6 +498,7 @@ class _PrintableCreateState extends State<PrintableCreate> {
                       flex: 1, // 25% of the space
                       child: TextField(
                         controller: _noOfCopiesController,
+                        onTap: () => _noOfCopiesController.selection = TextSelection(baseOffset: 0, extentOffset: _noOfCopiesController.value.text.length),
                         focusNode: _noOfCopiesFocusNode,
                         decoration: InputDecoration(
                           labelText: '#copies',

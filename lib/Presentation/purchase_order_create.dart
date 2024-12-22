@@ -397,6 +397,7 @@ class _PurchaseOrderCreateState extends State<PurchaseOrderCreate> {
                                                             vertical: 9),
                                                   ),
                                                   controller: _skuIdController,
+                                                  onTap: () => _skuIdController.selection = TextSelection(baseOffset: 0, extentOffset: _skuIdController.value.text.length),
                                                   onSubmitted: (String sku) {
                                                     _getAutoCompleteBySupplier();
                                                   },
@@ -511,6 +512,7 @@ class _PurchaseOrderCreateState extends State<PurchaseOrderCreate> {
                                                     LengthLimitingTextInputFormatter(6),
                                                   ],
                                                   controller: quantityController,
+                                                  onTap: () => quantityController.selection = TextSelection(baseOffset: 0, extentOffset: quantityController.value.text.length),
                                                   onChanged: (value) {
                                                     _updateQuantity(index, value); // Update quantity state
                                                   },

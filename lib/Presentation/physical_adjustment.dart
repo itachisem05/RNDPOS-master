@@ -300,6 +300,7 @@ class _PhysicalAdjustmentState extends State<PhysicalAdjustment> {
                                                 child: TextField(
                                                   controller: _skuIdController,
                                                   focusNode: _skuIdFocusNode,
+                                                  onTap: () => _skuIdController.selection = TextSelection(baseOffset: 0, extentOffset: _skuIdController.value.text.length),
                                                   onSubmitted: (_) {
                                                     _getAutoComplete();
                                                   },
@@ -389,6 +390,7 @@ class _PhysicalAdjustmentState extends State<PhysicalAdjustment> {
                     child: TextField(
                       controller: _onHandQuantityController,
                       focusNode: _onHandFocusNode,
+                      onTap: () => _onHandQuantityController.selection = TextSelection(baseOffset: 0, extentOffset: _onHandQuantityController.value.text.length),
                       keyboardType: TextInputType.number,
                       inputFormatters: [
                         FilteringTextInputFormatter.digitsOnly,
