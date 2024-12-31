@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:rndpo/API/api_service.dart';
-import 'package:rndpo/Presentation/purchase_order.dart';
-import 'package:rndpo/widgets/app_bar.dart';
+import 'package:usa/API/api_service.dart';
+import 'package:usa/Presentation/purchase_order.dart';
+import 'package:usa/widgets/app_bar.dart';
 import '../screens/menu_screen.dart';
 
 class PurchaseOrderItem {

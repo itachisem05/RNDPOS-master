@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:rndpo/Presentation/notification_screen.dart';
-import 'package:rndpo/screens/menu_screen.dart';
+import 'package:usa/Presentation/notification_screen.dart';
+import 'package:usa/screens/menu_screen.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:rndpo/API/api_service.dart';
-import 'package:rndpo/widgets/app_bar.dart' as custom_app_bar;
-import 'package:rndpo/Presentation/notification_screen.dart' as notification_screen;
+import 'package:usa/API/api_service.dart';
+import 'package:usa/widgets/app_bar.dart' as custom_app_bar;
+import 'package:usa/Presentation/notification_screen.dart' as notification_screen;
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

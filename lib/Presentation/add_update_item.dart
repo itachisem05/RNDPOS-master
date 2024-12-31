@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:rndpo/Presentation/barcode.dart'; //barcode
-import 'package:rndpo/screens/menu_screen.dart';
-import 'package:rndpo/widgets/autocomplete.dart';
+import 'package:usa/Presentation/barcode.dart'; //barcode
+import 'package:usa/screens/menu_screen.dart';
+import 'package:usa/widgets/autocomplete.dart';
 import '../API/api_service.dart';
 import '../widgets/app_bar.dart';
 

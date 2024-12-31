@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:rndpo/API/api_service.dart';
-import 'package:rndpo/screens/menu_screen.dart';
-import 'package:rndpo/widgets/app_bar.dart';
+import 'package:usa/API/api_service.dart';
+import 'package:usa/screens/menu_screen.dart';
+import 'package:usa/widgets/app_bar.dart';
 
 class InfoScreen extends StatefulWidget {
   const InfoScreen({super.key});

@@ -3,10 +3,10 @@ import 'package:firebase_analytics/firebase_analytics.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
-import 'package:rndpo/routes/app_routes.dart';
+import 'package:usa/routes/app_routes.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:intl/intl.dart';
-import 'package:rndpo/API/api_service.dart';
+import 'package:usa/API/api_service.dart';
 
 Future<void> initializeFirebase() async {
   // Check if Firebase has already been initialized

@@ -65,7 +65,7 @@ class DefaultFirebaseOptions {
     projectId: 'myfirebase-57d07',
     databaseURL: 'https://myfirebase-57d07.firebaseio.com',
     storageBucket: 'myfirebase-57d07.appspot.com',
-    iosBundleId: 'com.example.rndpo',
+    iosBundleId: 'com.randdpos.usa',
   );
 
 }

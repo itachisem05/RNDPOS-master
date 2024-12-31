@@ -2,13 +2,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:rndpo/API/api_service.dart';
-import 'package:rndpo/Presentation/barcode.dart';
-import 'package:rndpo/widgets/autocomplete.dart';
+import 'package:usa/API/api_service.dart';
+import 'package:usa/Presentation/barcode.dart';
+import 'package:usa/widgets/autocomplete.dart';
 import '../screens/menu_screen.dart';
 import '../widgets/app_bar.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:rndpo/Presentation/barcode.dart';
+import 'package:usa/Presentation/barcode.dart';
 
 class PhysicalAdjustment extends StatefulWidget {
   const PhysicalAdjustment({super.key});

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:rndpo/API/api_service.dart';
-import 'package:rndpo/Presentation/barcode.dart';
-import 'package:rndpo/Presentation/home_screen.dart';
-import 'package:rndpo/Presentation/printable_label.dart';
-import 'package:rndpo/widgets/autocomplete.dart';
+import 'package:usa/API/api_service.dart';
+import 'package:usa/Presentation/barcode.dart';
+import 'package:usa/Presentation/home_screen.dart';
+import 'package:usa/Presentation/printable_label.dart';
+import 'package:usa/widgets/autocomplete.dart';
 import '../screens/menu_screen.dart';
 import '../widgets/app_bar.dart';
 

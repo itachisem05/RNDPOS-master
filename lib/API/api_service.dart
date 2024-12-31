@@ -1,5 +1,5 @@
 import 'package:http/http.dart' as http;
-import 'package:rndpo/Presentation/purchase_order_edit.dart';
+import 'package:usa/Presentation/purchase_order_edit.dart';
 import 'dart:convert';
 import 'config.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -2352,7 +2352,7 @@ class ApiService {
 
     // Create the request body
     final requestBody = jsonEncode({
-      'appID': "com.example.rndpo",
+      'appID': "com.randdpos.usa",
       'deviceType': 1,
       'emailAuthHash': "emailAuthHash",
       'identifier': identifier,

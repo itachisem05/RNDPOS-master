@@ -1,4 +1,4 @@
-package com.example.rndpo;
+package com.randdpos.usa;
 
 import io.flutter.embedding.android.FlutterActivity;
 
